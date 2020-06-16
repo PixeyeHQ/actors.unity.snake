@@ -138,34 +138,7 @@ namespace Pixeye.Source
           csnake.directionX = 0;
           csnake.directionY = 1;
         }
-
-        // if (Input.GetKeyDown(cinput.Left) || Input.GetKeyDown(cinput.Right))
-        // {
-        //   if (Input.GetKeyDown(cinput.Left) && csnake.directionX != 1)
-        //   {
-        //     csnake.directionX = -1;
-        //     csnake.directionY = 0;
-        //   }
-        //
-        //   else if (Input.GetKeyDown(cinput.Right) && csnake.directionX != -1)
-        //   {
-        //     csnake.directionX = 1;
-        //     csnake.directionY = 0;
-        //   }
-        // }
-        // else if (Input.GetKeyDown(cinput.Up) || Input.GetKeyDown(cinput.Down))
-        // {
-        //   if (Input.GetKeyDown(cinput.Down) && csnake.directionY != 1)
-        //   {
-        //     csnake.directionX = 0;
-        //     csnake.directionY = -1;
-        //   }
-        //   else if (Input.GetKeyDown(cinput.Up) && csnake.directionY != -1)
-        //   {
-        //     csnake.directionX = 0;
-        //     csnake.directionY = 1;
-        //   }
-        // }
+ 
       }
 
       // logic
