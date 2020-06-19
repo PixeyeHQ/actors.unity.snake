@@ -7,8 +7,10 @@ namespace Pixeye.Source
   {
     protected override void Setup()
     {
-      Add<ProcessorGame>();
-      SceneSub.Add("Scene UI");
+#if UNITY_2019_4_OR_NEWER
+#else
+#endif
+    
     }
 
     protected override void OnLayerDestroy()
