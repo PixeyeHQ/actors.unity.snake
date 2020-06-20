@@ -610,7 +610,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLWasmStreaming: 0
   scriptingDefineSymbols:
-    1: ACTORS_TAGS_6;ACTORS_TAGS_CHECKS
+    1: ACTORS_TAGS_24;ACTORS_TAGS_CHECKS
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
